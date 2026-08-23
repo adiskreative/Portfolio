@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adi.sKreative</title>
+    <meta
+      name="description"
+      content="Portofolio profesional seorang desainer grafis dan pengembang web yang menciptakan identitas visual, situs web, dan pengalaman digital yang matang."
+    />
+    <meta property="og:title" content="Adi.sKreative" />
+    <meta
+      property="og:description"
+      content="Desainer dan pengembang multidisiplin yang fokus pada identitas visual, situs web, dan pengalaman digital."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/profile-placeholder.png" />
+    <meta name="theme-color" content="#f4efe9" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+          <a href="#home" class="brand" aria-label="Home">
+            <span class="brand-mark">A</span>
+            <span class="brand-name">Adi.sKreative</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-menu">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#works">Karya</a>
+            <a href="#services">Layanan</a>
+            <a href="#contact">Kontak</a>
+            <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+              <span class="toggle-knob"></span>
+            </button>
+            <a href="#contact" class="nav-cta">Kirim Pesan ↗</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero container reveal">
+          <div class="hero-copy">
+            <h1>Hallo! saya
+            </h1>
+            <h1>ADI SWANDI
+            </h1>
+            <p class="lead">
+              Sebagai Desain Grafis dan Web Development.
+            </p>
+            <div class="hero-actions">
+              <a href="#works" class="button button-primary">Lihat Karya Saya →</a>
+              <a href="https://www.shutterstock.com/id/g/Adiskreative?msockid=05a6176fe0e1622f2b4200efe113630f" target="_blank" rel="noreferrer" class="button button-secondary">Shutterstock</a>
+              <a href="#contact" class="button button-secondary">Hubungi Saya</a>
+            </div>
+            </div>
+
+          <div class="hero-visual" aria-label="Professional designer illustration">
+            <div class="art-frame">
+              <img src="assets/hero-illustration.png" alt="Editorial illustration of a creative professional designer and developer" />
+            </div>
+          </div>
+        </section>
+
+        <section id="works" class="section reveal">
+          <div class="container">
+            <div class="section-header">
+              <div>
+                <p class="section-kicker">Karya Terpilih</p>
+                <h2>Karya Terpilih</h2>
+              </div>
+              <p class="section-note">Beberapa proyek yang pernah saya kerjakan.</p>
+            </div>
+
+            <div class="portfolio-filter" aria-label="Project filters">
+              <button class="filter-btn active" type="button" data-filter="all">Semua</button>
+              <button class="filter-btn" type="button" data-filter="graphic-design">Desain Grafis</button>
+              <button class="filter-btn" type="button" data-filter="graphic-design">Branding</button>
+              <button class="filter-btn" type="button" data-filter="web-development">UI/UX</button>
+              <button class="filter-btn" type="button" data-filter="web-development">Pengembangan Web</button>
+              <a href="https://6a888d97377af7094605efca--funny-eclair-f11ee7.netlify.app/" target="_blank" rel="noreferrer" class="button button-secondary">Game Education</a>
+            </div>
+
+            <div id="projectGrid" class="portfolio-grid" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section id="about" class="section about-section reveal">
+          <div class="container about-layout">
+            <div class="about-copy">
+              <p class="section-kicker">Tentang</p>
+              <h1>Sedikit tentang saya.</h1>
+            </div>
+
+            <div class="about-content">
+              <div class="about-story">
+                <p>
+                  Saya adalah Desain Grafis dan Web Development yang suka mengubah ide menjadi
+                  identitas visual dan pengalaman digital yang fungsional serta bermakna.
+                </p>
+
+                <div class="specialization-stack">
+                  <article class="specialization-item">
+                    <span class="specialization-number">01</span>
+                    <div>
+                      <h3>Spesialisasi</h3>
+                      <p>
+                        Saya fokus pada pengembangan sistem berbasis PHP dengan Laravel dan
+                        CodeIgniter, termasuk backend, REST API, desain database MySQL, serta
+                        frontend dasar dengan HTML, CSS, JavaScript, Tailwind, dan Bootstrap.
+                        Saya juga menerapkan prinsip clean code dan SDLC dalam setiap proses.
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="specialization-item">
+                    <span class="specialization-number">02</span>
+                    <div>
+                      <h3>Desain Grafis</h3>
+                      <p>
+                        Saya juga mengembangkan kemampuan di bidang branding, identitas visual,
+                        dan desain pengalaman pengguna dengan tools seperti Photoshop,
+                        Illustrator, Affinity Studio, Inkscape dll.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="about-visual">
+                <div class="profile-card">
+                  <img src="assets/profile-placeholder.png" alt="Profile placeholder illustration" />
+                </div>
+
+                <ul class="profile-meta" aria-label="Profile details">
+                  <li>Kab. Parigi Moutong, Sulawesi Tengah</li>
+                  <li>Desain Grafis</li>
+                  <li>Pengembangan Web</li>
+                  <li>UI/UX</li>
+                  <li>Teknologi Kreatif</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section reveal">
+          <div class="container">
+            <div class="section-header compact">
+              <p class="section-kicker">Alat & Kemampuan</p>
+              <h2>Hal yang saya kerjakan</h2>
+            </div>
+
+            <div class="marquee" aria-label="Skills list">
+              <div class="marquee-track">
+                <span>DESAIN GRAFIS</span>
+                <span>BRANDING</span>
+                <span>DESAIN UI/UX</span>
+                <span>PENGEMBANGAN WEB</span>
+                <span>FRONT-END</span>
+                <span>BACK-END</span>
+                <span>DEVELOPMENT KREATIF</span>
+                <span>DESAIN GRAFIS</span>
+                <span>BRANDING</span>
+                <span>DESAIN UI/UX</span>
+                <span>PENGEMBANGAN WEB</span>
+                <span>FRONT-END</span>
+                <span>BACK-END</span>
+                <span>DEVELOPMENT KREATIF</span>
+              </div>
+            </div>
+
+            <div class="tools-grid" aria-label="Software and technologies">
+              <span>Photoshop</span>
+              <span>Illustrator</span>
+              <span>Affinity Studio</span>
+              <span>Python</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="section reveal">
+          <div class="container">
+            <div class="section-header compact">
+              <p class="section-kicker">Layanan</p>
+              <h2>Apa yang bisa saya lakukan</h2>
+            </div>
+
+            <div class="services-list">
+              <article class="service-item">
+                <span class="service-number">01</span>
+                <div class="service-copy">
+                  <h3>Identitas Brand</h3>
+                  <p>Menciptakan identitas visual yang khas, konsisten, dan mudah diingat.</p>
+                </div>
+              </article>
+
+              <article class="service-item">
+                <span class="service-number">02</span>
+                <div class="service-copy">
+                  <h3>Desain Grafis</h3>
+                  <p>Poster, konten media sosial, materi promosi, dan komunikasi visual yang efektif.</p>
+                </div>
+              </article>
+
+              <article class="service-item">
+                <span class="service-number">03</span>
+                <div class="service-copy">
+                  <h3>Desain Web</h3>
+                  <p>Website responsif modern yang fokus pada pengalaman pengguna dan kualitas visual.</p>
+                </div>
+              </article>
+
+              <article class="service-item">
+                <span class="service-number">04</span>
+                <div class="service-copy">
+                  <h3>Pengembangan Web</h3>
+                  <p>Website dan aplikasi web yang fungsional, bersih, dan mudah dipelihara.</p>
+                </div>
+              </article>
+
+              <article class="service-item">
+                <span class="service-number">05</span>
+                <div class="service-copy">
+                  <h3>Desain UI/UX</h3>
+                  <p>Antarmuka yang menyeimbangkan estetika, kegunaan, dan fungsi.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="section reveal">
+          <div class="container">
+            <div class="section-header compact">
+              <p class="section-kicker">Pengalaman</p>
+              <h2>Pengalaman pilihan</h2>
+            </div>
+
+            <div class="timeline">
+              <article class="timeline-item">
+                <span class="timeline-year">2026</span>
+                <div class="timeline-content">
+                  <h3>Desainer & Pengembang Freelance</h3>
+                  <p>Mengerjakan proyek independen di bidang branding, desain web, dan pengembangan front-end.</p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <span class="timeline-year">2025</span>
+                <div class="timeline-content">
+                  <h3>Proyek Pengembangan Web</h3>
+                  <p>Membangun antarmuka responsif dan pengalaman digital untuk brand bisnis dan kreatif.</p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <span class="timeline-year">2024</span>
+                <div class="timeline-content">
+                  <h3>Proyek Desain Grafis</h3>
+                  <p>Membuat materi branding, kampanye, dan elemen komunikasi visual untuk berbagai kebutuhan.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonial reveal">
+          <div class="container testimonial-wrap">
+            <p class="quote">
+              “Prosesnya sederhana, kolaboratif, dan hasil akhirnya lebih baik & Sesuai Permintaan.”
+            </p>
+            <div class="testimonial-meta">
+              <strong>Anonim</strong>
+            </div>
+            <!-- Ganti dengan testimonial asli -->
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section reveal">
+          <div class="container contact-layout">
+            <div class="contact-intro">
+              <p class="section-kicker">Kontak</p>
+              <h2>Kalau Punya Ide jangan di simpan nanti di LUPA?</h2>
+              <p>Ayoo ciptakan sesuatu yang berbeda dan menarik.</p>
+
+              <ul class="contact-links">
+                <li><a href="mailto:adi.skreative@gmail.com">Email</a></li>
+                <li><a href="https://wa.me/+6282399889992" target="_blank" rel="noreferrer">WhatsApp</a></li>
+                <li><a href="https://instagram.com/adi_skreative" target="_blank" rel="noreferrer">Instagram</a></li>
+                <li><a href="https://github.com/adi-skreative" target="_blank" rel="noreferrer">GitHub</a></li>
+              </ul>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="field-row">
+                <label>
+                  Nama
+                  <input type="text" name="name" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" required />
+                </label>
+              </div>
+
+              <label>
+                Jenis Proyek
+                <input type="text" name="projectType" required />
+              </label>
+
+              <label>
+                Pesan
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+
+              <button type="submit" class="button button-primary">Kirim Pesan ↗</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="footer-brand">
+            <span>Adi.sKreative</span>
+          </div>
+
+          <p class="footer-title">Desainer Grafis & Web Development</p>
+
+          <div class="footer-socials">
+            <a href="https://wa.me/+6282399889992" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="https://instagram.com/adi_skreative" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://github.com/adi-skreative" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="container footer-bottom">
+          <span>© <span id="year"></span> Adi.sKreative. Hak Cipta Dilindungi.</span>
+          <a href="#home" class="back-top">Kembali ke atas ↑</a>
+        </div>
+      </footer>
+    </div>
+
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button type="button" class="modal-close" aria-label="Close project details">×</button>
+
+        <div class="modal-content" id="modalContent"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
