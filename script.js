@@ -7,7 +7,7 @@ const projects = [
     year: '2026',
     role: 'PDF Compression Specialist',
     tools: ['VS Code', 'Python', 'JavaScript'],
-    image: 'assets/projects/01-pdf-compressed.jpg',
+    image: 'assets/projects/01-pdf-compressed.JPG',
     description:
       'PDF COMPRESSED adalah layanan kompresi PDF yang dirancang untuk mengurangi ukuran file PDF tanpa mengorbankan kualitas, sehingga memudahkan berbagi dan penyimpanan dokumen.',
     challenge:
@@ -15,7 +15,7 @@ const projects = [
     solution:
       'Saya mengembangkan algoritma kompresi yang efisien dan mengoptimalkan proses kompresi untuk memastikan kualitas tetap terjaga sambil mengurangi ukuran file secara signifikan.',
     gallery: [
-      'assets/projects/01-pdf-compressed.jpg'
+      'assets/projects/01-pdf-compressed.JPG'
     ],
     liveUrl: '#'
   },
@@ -27,7 +27,7 @@ const projects = [
     year: '2026',
     role: 'Activation tool developer',
     tools: ['VS Code', 'Python', 'JavaScript'],
-    image: 'assets/projects/02-activator-win10-office365.jpg',
+    image: 'assets/projects/02-activator-win10-office365.JPG',
     description:
       'Activator win 10 & Office 365,2021 adalah alat aktivasi yang dirancang untuk memberikan pengalaman pengguna yang mulus dan aman, memungkinkan pengguna untuk mengaktifkan sistem operasi Windows dan Office 365 mereka dengan mudah.',
     challenge:
@@ -35,7 +35,7 @@ const projects = [
     solution:
       'Saya mengembangkan antarmuka pengguna yang intuitif dan algoritma aktivasi yang aman, memastikan kompatibilitas dengan berbagai versi Windows sambil menjaga keamanan dan keandalan alat.',
     gallery: [
-      'assets/projects/02-activator-win10-office365.jpg'
+      'assets/projects/02-activator-win10-office365.JPG'
     ],
     liveUrl: '#'
   },
@@ -68,7 +68,7 @@ const projects = [
     year: '2010-2026',
     role: 'Desainer Visual',
     tools: ['Photoshop', 'Illustrator', 'Affinity Studio'],
-    image: 'assets/projects/04-Desain-grafis.jpg',
+    image: 'assets/projects/04-Desain-grafis.JPG',
     description:
       'Membangun identitas visual yang konsisten dan menarik, mulai dari materi promosi digital hingga desain media cetak untuk memperkuat brand awareness.',
     challenge:
@@ -76,9 +76,9 @@ const projects = [
     solution:
       'Merancang sistem desain modular yang fleksibel untuk media cetak dan digital guna meningkatkan brand awareness.',
     gallery: [
-      'assets/projects/04-Desain-grafis.jpg',
-      'assets/projects/cover.jpg',
-      'assets/projects/icon-collection.jpg'
+      'assets/projects/04-Desain-grafis.JPG',
+      'assets/projects/cover.JPG',
+      'assets/projects/icon-collection.JPG'
     ],
     liveUrl: '#'
   },
