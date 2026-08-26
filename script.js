@@ -85,7 +85,7 @@ const projects = [
       'assets/projects/Desain-grafis/icon-collection.jpeg',
       'assets/projects/Desain-grafis/batikparimolomba.JPG',
       'assets/projects/Desain-grafis/buildingLOGO.JPG',
-      'assets/projects/Desain-grafis/coverKEU.JPG',
+      'assets/projects/Desain-grafis/coverkeu.JPG',
       'assets/projects/Desain-grafis/1.jpg',
       'assets/projects/Desain-grafis/1.1.jpg',
       'assets/projects/Desain-grafis/2.jpg',
