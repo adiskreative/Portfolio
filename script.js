@@ -7,7 +7,7 @@ const projects = [
     year: '2026',
     role: 'PDF Compression Specialist',
     tools: ['VS Code', 'Python', 'JavaScript'],
-    image: 'assets/projects/01-pdf-compressed.jpeg',
+    image: 'assets/projects/PDF/01-pdf-compressed.jpeg',
     description:
       'PDF COMPRESSED adalah layanan kompresi PDF yang dirancang untuk mengurangi ukuran file PDF tanpa mengorbankan kualitas, sehingga memudahkan berbagi dan penyimpanan dokumen.',
     challenge:
@@ -15,7 +15,7 @@ const projects = [
     solution:
       'Saya mengembangkan algoritma kompresi yang efisien dan mengoptimalkan proses kompresi untuk memastikan kualitas tetap terjaga sambil mengurangi ukuran file secara signifikan.',
     gallery: [
-      'assets/projects/01-pdf-compressed.jpeg'
+      'assets/projects/PDF/01-pdf-compressed.jpeg'
     ],
     liveUrl: '#'
   },
@@ -27,7 +27,7 @@ const projects = [
     year: '2026',
     role: 'Activation tool developer',
     tools: ['VS Code', 'Python', 'JavaScript'],
-    image: 'assets/projects/02-activator-win10-office365.jpeg',
+    image: 'assets/projects/Activator/02-activator-win10-office365.jpeg',
     description:
       'Activator win 10 & Office 365,2021 adalah alat aktivasi yang dirancang untuk memberikan pengalaman pengguna yang mulus dan aman, memungkinkan pengguna untuk mengaktifkan sistem operasi Windows dan Office 365 mereka dengan mudah.',
     challenge:
@@ -35,7 +35,7 @@ const projects = [
     solution:
       'Saya mengembangkan antarmuka pengguna yang intuitif dan algoritma aktivasi yang aman, memastikan kompatibilitas dengan berbagai versi Windows sambil menjaga keamanan dan keandalan alat.',
     gallery: [
-      'assets/projects/02-activator-win10-office365.jpeg'
+      'assets/projects/Activator/02-activator-win10-office365.jpeg'
     ],
     liveUrl: '#'
   },
@@ -47,7 +47,7 @@ const projects = [
     year: '2026',
     role: 'Pengembang Front-end & Backand',
     tools: ['PHP', 'Tailwind CSS', 'JavaScript', 'Laravel', 'mySQL'],
-    image: 'assets/projects/03-Absensi.jpeg',
+    image: 'assets/projects/Absensi/03-Absensi.jpeg',
     description:
       'SIABSEN dibangun untuk memenuhi kebutuhan pencatatan kehadiran pegawai pada sebuah instansi.',
     challenge:
@@ -55,8 +55,8 @@ const projects = [
     solution:
       'Mempermudah proses absensi dan rekapan agar lebih rapi dan transparan.',
     gallery: [
-      'assets/projects/03-Absensi.jpeg',
-      'assets/projects/003-Login-absen.jpeg'
+      'assets/projects/Absensi/03-Absensi.jpeg',
+      'assets/projects/Absensi/003-Login-absen.jpeg'
     ],
     liveUrl: '#'
   },
@@ -68,7 +68,7 @@ const projects = [
     year: '2010-2026',
     role: 'Desainer Visual',
     tools: ['Photoshop', 'Illustrator', 'Affinity Studio'],
-    image: 'assets/projects/04-Desain-grafis.jpeg',
+    image: 'assets/projects/Desain-grafis/04-Desain-grafis.jpeg',
     description:
       'Membangun identitas visual yang konsisten dan menarik, mulai dari materi promosi digital hingga desain media cetak untuk memperkuat brand awareness.',
     challenge:
@@ -76,9 +76,25 @@ const projects = [
     solution:
       'Merancang sistem desain modular yang fleksibel untuk media cetak dan digital guna meningkatkan brand awareness.',
     gallery: [
-      'assets/projects/04-Desain-grafis.jpeg',
-      'assets/projects/cover.jpeg',
-      'assets/projects/icon-collection.jpeg'
+      'assets/projects/Desain-grafis/idcard.JPG',
+      'assets/projects/Desain-grafis/shape.JPG',
+      'assets/projects/Desain-grafis/red.JPG',
+      'assets/projects/Desain-grafis/04-Desain-grafis.jpeg',
+      'assets/projects/Desain-grafis/cover.jpeg',
+      'assets/projects/Desain-grafis/bidan.JPG',
+      'assets/projects/Desain-grafis/icon-collection.jpeg',
+      'assets/projects/Desain-grafis/batikparimolomba.JPG',
+      'assets/projects/Desain-grafis/buildingLOGO.JPG',
+      'assets/projects/Desain-grafis/coverKEU.JPG',
+      'assets/projects/Desain-grafis/1.jpg',
+      'assets/projects/Desain-grafis/1.1.jpg',
+      'assets/projects/Desain-grafis/2.jpg',
+      'assets/projects/Desain-grafis/street.JPG',
+      'assets/projects/Desain-grafis/logorenkeu.JPG',
+      'assets/projects/Desain-grafis/microUMK.JPG',
+      'assets/projects/Desain-grafis/posterlegacy.JPG',
+      'assets/projects/Desain-grafis/spanduk.JPG',
+      'assets/projects/Desain-grafis/ui-ux.JPG'
     ],
     liveUrl: '#'
   },
@@ -90,7 +106,7 @@ const projects = [
     year: '2026',
     role: 'Pengembang HTML',
     tools: ['HTML', 'Netlify', 'Pwabuilder'],
-    image: 'assets/projects/05-Game-Education.jpeg',
+    image: 'assets/projects/Game-Education/05-Game-Education.jpeg',
     description:
       'Game Education yang di rancang untuk Pembelajaran Anak pada usia Dini, PAUD/TK dan dapat di install pada android/iphone.',
     challenge:
@@ -98,7 +114,7 @@ const projects = [
     solution:
       'Saya membangun game ini untuk Mempermudah Anak untuk Mengenal angka dan huruf serta berbagai bentuk balok/persegi.',
       gallery: [
-      'assets/projects/05-Game-Education.jpeg'
+      'assets/projects/Game-Education/05-Game-Education.jpeg'
     ],
     liveUrl: '#'
   }
