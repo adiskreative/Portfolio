@@ -315,8 +315,39 @@ form?.addEventListener('submit', (event) => {
     return;
   }
 
-  alert('Thank you! Your message has been prepared for sending.');
-  form.reset();
-});
+  const submitButton = form.querySelector('button[type="submit"]');
+  const originalText = submitButton ? submitButton.textContent : '';
+  if (submitButton) {
+    submitButton.disabled = true;
+    submitButton.textContent = 'Mengirim...';
+  }
 
+  fetch(form.action, {
+    method: 'POST',
+    body: formData,
+    headers: { Accept: 'application/json' }
+  })
+    .then((response) => {
+      if (response.ok) {
+        alert('Terima kasih! Pesan kamu sudah terkirim.');
+        form.reset();
+      } else {
+        return response.json().then((data) => {
+          const errorMsg =
+            data.errors?.map((e) => e.message).join(', ') ||
+            'Terjadi kesalahan saat mengirim pesan.';
+          alert(errorMsg);
+        });
+      }
+    })
+    .catch(() => {
+      alert('Gagal mengirim pesan. Periksa koneksi internet kamu dan coba lagi.');
+    })
+    .finally(() => {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
+      }
+    });
+});
 renderProjects();
