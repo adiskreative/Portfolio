@@ -68,7 +68,10 @@
 
           <div class="hero-visual" aria-label="Professional designer illustration">
             <div class="art-frame">
-              <img src="assets/hero-illustration.png" alt="Editorial illustration of a creative professional designer and developer" />
+              <picture>
+                <source srcset="assets/hero-illustration.webp" type="image/webp" />
+                <img src="assets/hero-illustration.png" alt="Editorial illustration of a creative professional designer and developer" loading="lazy" />
+              </picture>
             </div>
           </div>
         </section>
@@ -140,7 +143,10 @@
 
               <div class="about-visual">
                 <div class="profile-card">
-                  <img src="assets/profile-placeholder.png" alt="Profile placeholder illustration" />
+                  <picture>
+                    <source srcset="assets/profile-placeholder.webp" type="image/webp" />
+                    <img src="assets/profile-placeholder.png" alt="Profile placeholder illustration" loading="lazy" />
+                  </picture>
                 </div>
 
                 <ul class="profile-meta" aria-label="Profile details">
@@ -341,7 +347,7 @@
               </ul>
             </div>
 
-            <form class="contact-form" id="contactForm" novalidate>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" novalidate>
               <div class="field-row">
                 <label>
                   Nama
