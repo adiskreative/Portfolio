@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for a graphic designer & web developer operating under **Adi.sKreative**. A single-page static site built with vanilla HTML, CSS, and JavaScript — zero dependencies, no build tools required.",
+  "main": "compress-images.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiskreative/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adiskreative/Portfolio/issues"
+  },
+  "homepage": "https://github.com/adiskreative/Portfolio#readme",
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}
