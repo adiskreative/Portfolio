@@ -46,7 +46,7 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(141, 109, 74, 0.08), transparent 32%),
+    radial-gradient(circle at top left, rgba(0, 225, 255, 0.623), transparent 32%),
     var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -134,7 +134,7 @@ h2 {
   top: 0;
   z-index: 30;
   backdrop-filter: blur(10px);
-  background: rgba(244, 239, 233, 0.7);
+  background: rgb(0, 28, 32);
   border-bottom: 1px solid var(--line);
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
@@ -162,15 +162,9 @@ body.dark-theme .site-header {
 }
 
 .brand-mark {
-  display: inline-grid;
-  place-items: center;
-  width: 1.9rem;
+  display: block;
   height: 1.9rem;
-  background: var(--text);
-  color: var(--bg);
-  border-radius: 50%;
-  font-size: 0.7rem;
-  letter-spacing: 0;
+  width: auto;
 }
 
 .nav-menu {
@@ -351,14 +345,14 @@ body.dark-theme .toggle-knob {
   width: min(100%, 580px);
   padding: 1.2rem;
   border: 1px solid var(--line);
-  background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(255,255,255,0.15));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.021));
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
 }
 
 .art-frame::before {
   content: "DESIGN / CODE / CREATE";
-  position: absolute;
+  position: var(--container);
   left: 1.1rem;
   top: 1rem;
   color: var(--muted);
@@ -452,7 +446,7 @@ body.dark-theme .toggle-knob {
   gap: 1rem;
   padding: 1.2rem 1.2rem 1.3rem;
   min-height: 100%;
-  background: linear-gradient(180deg, rgba(18,16,14,0), rgba(18,16,14,0.75));
+  background: linear-gradient(180deg, rgba(18,16,14,0), rgba(24, 24, 18, 0.274));
 }
 
 .project-card .project-meta {
@@ -1442,9 +1436,7 @@ body.dark-theme .toggle-knob {
   }
 
   .brand-mark {
-    width: 1.6rem;
     height: 1.6rem;
-    font-size: 0.6rem;
   }
 
   .nav-toggle {
